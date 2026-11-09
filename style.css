@@ -1,0 +1,384 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.firstdiv{
+    background-image: url(./img/Document/imgi_1_skye.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 270px;
+    position: relative;
+
+    .house{
+        width: 1345px;
+        margin-top:10px;
+        margin-left: 5px;
+    }
+    .aeroplane{
+        position:absolute;
+        width: 400px;
+        right: 0px;
+        z-index: 400;
+        top: 00px;
+         animation-name: aeroplane;
+         animation-delay: 1s;
+         animation-duration: 2s;
+         direction: linear;
+         animation-iteration-count: infinite;
+         animation-timing-function: linear;
+    }
+    .helicopter{
+        position:absolute;
+        width: 200px;
+         right: 0px;
+        z-index: 100;
+        top: 35px;
+          animation-name: helicopter;
+         animation-delay: 1s;
+         animation-duration: 4s;
+         direction: linear;
+         animation-iteration-count: infinite;
+         animation-timing-function: linear;
+    }
+    .waving{
+        position:absolute;
+        width: 150px; 
+         right: 0px;
+        z-index: 400;
+        bottom: 40px;
+          animation-name: waving;
+         animation-delay: 1s;
+         animation-duration: 12s;
+         direction: linear;
+         animation-iteration-count: infinite;
+         animation-timing-function: linear;
+    }
+    .pedestrian{
+       position:absolute;
+         width: 150px; 
+       left: 0px;
+        z-index: 200;
+        top: 120px;
+          animation-name: pedestrian;
+         animation-delay: 1s;
+         animation-duration: 12s;
+         direction: linear;
+         animation-iteration-count: infinite;
+         animation-timing-function: linear;
+    }
+     .marchine{
+         position:absolute;
+          right: 0px;
+         top: 227px;
+         z-index: 40;
+           animation-name: marchine;
+         animation-delay: 1s;
+         animation-duration: 3s;
+         direction: linear;
+         animation-iteration-count: infinite;
+         animation-timing-function: linear;
+     }
+    .car{
+       position:absolute;
+       width: 200px;
+        right: 0px;
+        z-index: 20;
+         top: 180px;
+           animation-name: car;
+         animation-delay: 1s;
+         animation-duration: 8s;
+         direction: linear;
+         animation-iteration-count: infinite;
+         animation-timing-function: linear;
+    }
+
+
+
+    .div1{
+        background-color: #58F758;
+        padding: 8px;
+        margin-top: -20px;
+        position: absolute;
+    }
+    
+}
+
+@keyframes aeroplane {
+   from {
+    transform: translateX(0px);
+   }
+
+   to{
+    transform: translateX(-1400px);
+   }
+}
+
+@keyframes helicopter{
+   from {
+    transform: translateX(0px);
+   }
+
+   to{
+    transform: translateX(-1400px);
+   }
+}
+
+@keyframes waving {
+   from {
+    transform: translateX(0px);
+   }
+
+   to{
+    transform: translateX(-1400px);
+   }
+}
+
+@keyframes pedestrian {
+   from {
+    transform: translateX(0px);
+   }
+
+   to{
+    transform: translateX(1270px);
+   }
+}
+
+@keyframes marchine {
+   from {
+    transform: translateX(0px);
+   }
+
+   to{
+    transform: translateX(-1400px);
+   }
+}
+
+@keyframes car {
+   from {
+    transform: translateX(0px);
+   }
+
+   to{
+    transform: translateX(-1400px);
+   }
+}
+
+
+
+.seconddiv{
+    background-image: url(./img/Document/imgi_5_road.jfif);
+    background-position: center;
+    height: 170px;
+    position: relative;
+    margin-top: 0px;
+    
+    .truck{
+        width: 200px;
+        position: absolute;
+        right: 0px;
+        top: 20px;
+          animation-name: truck;
+         animation-delay: 1s;
+         animation-duration: 4s;
+         direction: linear;
+         animation-iteration-count: infinite;
+         animation-timing-function: linear;
+    }
+}
+
+@keyframes truck {
+   from {
+    transform: translateX(0px);
+   }
+
+   to{
+    transform: translateX(-1400px);
+   }
+}
+
+.thriddiv{
+    background-color: #313030;
+    padding: 20px;
+    position: relative;
+    .img1{
+        width: 200px;
+        position: absolute;
+        z-index: 400px;
+        top: -130px;
+    }
+    .img2{
+        position: absolute;
+        width: 90px;
+         z-index: 400px;
+         top: -100px;
+         left: 490px;
+    }
+    .img3{
+         width: 200px;
+        position: absolute;
+        z-index: 400px;
+        top: -130px;
+        left: 800px;
+    }
+    .img4{
+        position: absolute;
+        width: 90px;
+         z-index: 400px;
+         top: -100px;
+         left: 1200px; 
+    }
+}
+
+
+.fourthdiv{
+    background-image: url(./img/Document/imgi_5_road.jfif);
+    background-position: center;
+    height: 170px;
+    position: relative;
+    margin-top: 0px;
+
+    .img6{
+         position: absolute;
+         width: 100px;
+         top: -50px;
+         left: 0px;
+           animation-name: img6;
+         animation-delay: 1s;
+         animation-duration: 12s;
+         direction: linear;
+         animation-iteration-count: infinite;
+         animation-timing-function: linear ;
+    }
+
+     .img7{
+         position: absolute;
+         width: 200px;
+         top: 90px;
+         z-index: 300;
+         left: 0px;
+           animation-name: img7;
+         animation-delay: 1s;
+         animation-duration: 4s;
+         direction: linear;
+         animation-iteration-count: infinite;
+         animation-timing-function: linear;
+    }
+
+     .img8{
+         position: absolute;
+         width: 170px;
+         top: 40px;
+         z-index: 200;
+           animation-name: img8;
+         animation-delay: 1s;
+         animation-duration: 5s;
+         direction: linear;
+         animation-iteration-count: infinite;
+         animation-timing-function: linear;
+    }
+
+     .img9{
+         position: absolute;
+         width: 200px;
+         top: -30px;
+           animation-name: img9;
+         animation-delay: 1s;
+         animation-duration: 7s;
+         direction: linear;
+         animation-iteration-count: infinite;
+         animation-timing-function: linear;
+    }
+
+     .img10{
+         position: absolute;
+         width: 100px;
+         top: -500px;
+         left: 500px;
+           animation-name: img10;
+         animation-delay: 1s;
+         animation-duration: 8s;
+         direction: linear;
+         animation-iteration-count: infinite;
+         animation-timing-function: linear;
+    }
+
+     .img11{
+         position: absolute;
+         width: 100px;
+         top: -500px;
+           animation-name: img11;
+         animation-delay: 1s;
+         animation-duration: 8s;
+         direction: linear;
+         animation-iteration-count: infinite;
+         animation-timing-function: linear;
+    }
+
+
+}
+
+@keyframes img6 {
+   from {
+    transform: translateX(0px);
+   }
+
+   to{
+    transform: translateX(1200px);
+   }
+}
+
+@keyframes img7 {
+   from {
+    transform: translateX(0px);
+   }
+
+   to{
+    transform: translateX(1200px);
+   }
+}
+
+@keyframes img8 {
+   from {
+    transform: translateX(0px);
+   }
+
+   to{
+    transform: translateX(1200px);
+   }
+}
+
+@keyframes img9 {
+   from {
+    transform: translateX(0px);
+   }
+
+   to{
+    transform: translateX(1200px);
+   }
+}
+
+@keyframes img10 {
+   from {
+    transform: translateX(0px);
+   }
+
+   to{
+    transform: translateX(1200px);
+   }
+}
+
+@keyframes img11 {
+   from {
+    transform: translateX(0px);
+   }
+
+   to{
+    transform: translateX(1200px);
+   }
+}
+
+
